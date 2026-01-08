@@ -4,9 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
+    <!-- <meta
       http-equiv="Content-Security-Policy"
       content="connect-src 'self' https://www.omdbapi.com;"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+    connect-src 'self'
+    
+    https://api.spotify.com;
+  "
+    /> -->
+
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+    connect-src 'self'
+    https://www.omdbapi.com
+    https://api.spotify.com;
+  "
     />
     <title>song-finder</title>
   </head>

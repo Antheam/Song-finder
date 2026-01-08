@@ -13,6 +13,9 @@ function App() {
             <SearchBar />
           </div>
         }
+        <div className="App-playlist">
+          <SearchResults />
+        </div>
       </div>
     </>
   );
